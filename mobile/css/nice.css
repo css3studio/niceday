@@ -48,11 +48,11 @@
 #sec3{height:480px;background-image:url(../images/bg_sec03.jpg)}
 #sec4{height:480px;background-image:url(../images/bg_sec04.jpg)}
 #sec5{height:530px}
-#sec5 .slide li.slick-slide{height:530px;background-repeat:no-repeat;background-position:center 0;background-size:100% auto}
+#sec5 .slide li.slick-slide{height:530px;background-repeat:no-repeat;background-position:center bottom -40px;background-size:100% auto}
 #sec5 .slide1{background-image:url(../images/bg_sec05_01.jpg)}
 #sec5 .slide2{background-image:url(../images/bg_sec05_02.jpg)}
 #sec5 .slide3{background-image:url(../images/bg_sec05_03.jpg)}
-#sec6{height:502px;background-color:#f5f4ee;overflow:hidden}
+#sec6{background-color:#f5f4ee;overflow:hidden}
 #sec7{height:530px;background-image:url(../images/bg_sec07.jpg);position:relative}
 #sec8{background-image:url(../images/bg_sec08.jpg)}
 #sec10{height:480px;background-image:url(../images/bg_sec10.jpg)}
@@ -137,10 +137,11 @@
 #sec5 .slide2 dl dd p b{color:#ffcc00;font-weight:normal;border-bottom:2px solid}
 #sec5 .slide3 dl dd p b{color:#38b6ff;font-weight:normal;border-bottom:2px solid}
 
+#sec6{padding-bottom:40px}
 #sec6 .slider.inner{position:relative;margin:0}
 #sec6 .slider .slick-list{overflow:visible}
-#sec6 .slider .slick-slide{border-radius:10px;overflow:hidden}
-#sec6 .slider ul li.slick-slide{height:200px;overflow:hidden}
+#sec6 .slider .slick-slide{overflow:hidden}
+#sec6 .slider ul li.slick-slide{overflow:hidden}
 #sec6 .slider ul li.slick-slide img{width:100%}
 #sec6 .tc03{padding-top:60px;margin-bottom:30px;text-align:center}
 #sec6 .tc03 dl dt{font-size:32px}
