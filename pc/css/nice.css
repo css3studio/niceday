@@ -248,7 +248,7 @@ html,body{font-size:16px}
 }
 
 #sec6 {
-  height: 79.625rem
+  padding-bottom:8rem
 }
 
 #sec7 {
@@ -748,7 +748,7 @@ html,body{font-size:16px}
   content: "";
   display: block;
   width: 62.5rem;
-  height: 43.75rem;
+  height: 100%;
   position: absolute;
   left: -65.375rem;
   top: 0;
@@ -761,7 +761,7 @@ html,body{font-size:16px}
   content: "";
   display: block;
   width: 62.5rem;
-  height: 43.75rem;
+  height: 100%;
   position: absolute;
   right: -65.375rem;
   top: 0;
@@ -981,6 +981,18 @@ html,body{font-size:16px}
   width: 100%;
   text-align: center
 }
+@media screen and (max-width:1600px) {
+	html,body{font-size:13px !important}
+  #content_body section {
+    background-size:1600px auto;
+  }
+  #sec5 .slide li {
+    background-size:1600px auto;
+  }
+  #sec11 .tc06 {
+    background-size:1600px auto;
+  }
+}
 
 @media screen and (max-width:1100px) {
 	html,body{font-size:13px !important}
@@ -1048,3 +1060,4 @@ html,body{font-size:16px}
 @media screen and (max-width:1024px) {
 	html,body{font-size:11px !important}
 }
+
