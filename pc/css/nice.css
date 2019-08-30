@@ -101,7 +101,7 @@ html,body{font-size:16px}
   margin-top: -0.625rem;
   white-space: nowrap;
   word-break: keep-all;
-  transition: height 0.5s, line-height 0.5s, margin-top 0.5s, opacity 0.5s
+  transition: height 0.5s 0.3s, line-height 0.5s 0.3s, margin-top 0.5s 0.3s, opacity 0.5s 0.3s
 }
 
 #indicator li span:after {
@@ -122,6 +122,12 @@ html,body{font-size:16px}
   height: 2.5rem;
   line-height: 2.5rem;
   margin-top: -1.25rem
+}
+#indicator .mouseover li.active span {
+  opacity: 0;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  padding: 0 1.25rem;
 }
 
 #indicator li a {

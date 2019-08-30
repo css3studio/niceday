@@ -74,6 +74,12 @@ $(document).ready(function() {
     $("#indicator li a").click(function(event){     
         $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500,"linear");
     });
+    $("#indicator li a").mouseover(function(event){     
+        $(this).parent().parent().addClass('mouseover');
+    });
+    $("#indicator li a").mouseout(function(event){     
+        $(this).parent().parent().removeClass('mouseover');
+    });
 
 	//$('#ribon_path').velocity({ 'stroke-dashoffset': 3300 }, { duration: 0, delay: 0 }).velocity({ 'stroke-dashoffset': 0 }, { duration: 3000, delay: 0 });
 });
