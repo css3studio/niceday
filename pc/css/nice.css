@@ -110,6 +110,7 @@ html,body{font-size:16px}
   width: 0.5rem;
   height: 0.5rem;
   background: url(../images/box_arrow.png) no-repeat 0 0;
+  background-size:cover;
   position: absolute;
   right: -0.5rem;
   top: 50%;
