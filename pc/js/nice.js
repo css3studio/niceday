@@ -5,6 +5,24 @@ Version:1.0
 */
 
 $(document).ready(function() {
+    //전쟁속 아이와 팔찌 슬라이드
+    $('#sec5 .slide').slick({
+        initialSlide:0,
+        prevArrow : "#sec5 .controls .prev",
+        nextArrow : "#sec5 .controls .next",
+        speed: 300,
+        dots:true,
+        appendDots: $('#sec5 .controls .indicator'),
+        customPaging: function (slider, i) {
+          return  (i + 1) + '/' + slider.slideCount;
+        }
+    });
+    $('#sec6 .slider ul').slick({
+        centerMode: true,
+        centerPadding: 0,
+        slidesToShow: 1,
+        dots:true
+    });
 	
 	// init controller
 	var controller = new ScrollMagic.Controller();
@@ -52,24 +70,6 @@ $(document).ready(function() {
         .addTo(controller);
 
 
-	//전쟁속 아이와 팔찌 슬라이드
-	$('#sec5 .slide').slick({
-		initialSlide:0,
-		prevArrow : "#sec5 .controls .prev",
-		nextArrow : "#sec5 .controls .next",
-		speed: 300,
-		dots:true,
-		appendDots: $('#sec5 .controls .indicator'),
-		customPaging: function (slider, i) {
-		  return  (i + 1) + '/' + slider.slideCount;
-		}
-	});
-	$('#sec6 .slider ul').slick({
-		centerMode: true,
-		centerPadding: 0,
-		slidesToShow: 1,
-		dots:true
-	});
     //인디게이터 링크이동 효과
     $("#indicator li a").click(function(event){     
         $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500,"linear");
