@@ -1,0 +1,21 @@
+
+@font-face {
+  font-family: 'Noto Serif KR';
+  font-style: normal;
+  font-weight: 300;
+  src: local('NotoSerifKR-Light'), local('NotoSerifKR-Light'), url(NotoSerifKR-Light.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto Serif KR';
+  font-style: normal;
+  font-weight: 500;
+  src: local('NotoSerifKR-Regular'), local('NotoSerifKR-Regular'), url(NotoSerifKR-Regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto Serif KR';
+  font-style: normal;
+  font-weight: 700;
+  src: local('NotoSerifKR-Bold'), local('NotoSerifKR-Bold'), url(NotoSerifKR-Bold.woff2) format('woff2');
+}
