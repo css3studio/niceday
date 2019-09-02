@@ -27,7 +27,6 @@ $(document).ready(function() {
 	// init controller
 	var controller = new ScrollMagic.Controller();
 
-		
 	// build scenes
     new ScrollMagic.Scene({triggerElement: "#sec1",duration:$("#sec1").height()})
         .setClassToggle("#indicator", "inactive") // add class toggle

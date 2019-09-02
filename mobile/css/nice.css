@@ -42,21 +42,21 @@
 #scroll_button a span{position:relative;left:-30px}
 
 /*background image*/
-#content_body section{background-repeat:no-repeat;background-position:center center;background-size:100% auto}
+#content_body section{background-repeat:no-repeat;background-position:center center;background-size:414px auto}
 #sec1{height:527px;background-image:url(../images/bg_sec01.jpg)}
 #sec2{height:460px;background-image:url(../images/bg_sec02.jpg)}
 #sec3{height:480px;background-image:url(../images/bg_sec03.jpg)}
 #sec4{height:480px;background-image:url(../images/bg_sec04.jpg)}
 #sec5{height:530px}
-#sec5 .slide li.slick-slide{height:530px;background-repeat:no-repeat;background-position:center center;background-size:100% auto}
+#sec5 .slide li.slick-slide{height:530px;background-repeat:no-repeat;background-position:center center;background-size:414px auto}
 #sec5 .slide1{background-image:url(../images/bg_sec05_01.jpg)}
 #sec5 .slide2{background-image:url(../images/bg_sec05_02.jpg)}
 #sec5 .slide3{background-image:url(../images/bg_sec05_03.jpg)}
 #sec6{background-color:#f5f4ee;overflow:hidden}
 #sec7{height:530px;background-image:url(../images/bg_sec07.jpg);position:relative}
-#sec8{background-image:url(../images/bg_sec08.jpg)}
+#sec8{height:1014px;background-image:url(../images/bg_sec08.jpg)}
 #sec10{height:480px;background-image:url(../images/bg_sec10.jpg)}
-#sec11 .tc06{height:633px;background:url(../images/bg_sec11.jpg) no-repeat center center;background-size:100% auto}
+#sec11 .tc06{height:633px;background:url(../images/bg_sec11.jpg) no-repeat center center;background-size:414px auto}
 
 /*contents*/
 .tc01{padding-top:120px;text-align:center}
@@ -143,7 +143,7 @@
 #sec6 .slider .slick-slide{overflow:hidden}
 #sec6 .slider ul li.slick-slide{overflow:hidden}
 #sec6 .slider ul li.slick-slide img{width:100%}
-#sec6 .tc03{padding-top:60px;margin-bottom:30px;text-align:center}
+#sec6 .tc03{padding-top:60px;margin-bottom:30px;padding-left:0;text-align:center}
 #sec6 .tc03 dl dt{font-size:32px}
 #sec6 .tc03 p.pre{color:#5c2f0d}
 #sec6 .tc03 dl dd p{color:#222e44}
@@ -160,7 +160,7 @@
 #sec6 .slick-next:before{content:"\e93e";font-family:xeicon;font-size:20px;color:#fff;display:block;margin:0 auto}
 #sec7 .tc03 p.info{position:absolute;bottom:20px;left:0;width:100%;padding:0 15px;box-sizing:border-box}
 
-#sec8{position:relative;overflow:hidden;padding-bottom:50px}
+#sec8{position:relative;overflow:hidden;box-sizing:border-box}
 #sec8 .inner{height:100%}
 #sec8 .tc03{text-align:center;margin-bottom:50px;padding-top:60px}
 #sec8 .tc03 dl dt{font-size:27px;color:#5c2f0d}
