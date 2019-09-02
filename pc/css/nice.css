@@ -901,19 +901,19 @@ html,body{font-size:16px}
   position: absolute;
   top: 15.625rem;
   left: 50%;
-  margin-left: -60rem
+  margin-left: -60rem;
+  width: 50%;
+  height: 0;
+  padding-top: 48%;
 }
 
 #sec8 .ribon svg {
-  width: 120rem
+  width: 120rem;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-/*
-#ribon_path{
-  stroke-dashoffset:3300;
-	stroke-dasharray:3300;
-}
-*/
 
 #ribon_path {
   opacity: 0;
@@ -925,12 +925,25 @@ html,body{font-size:16px}
   stroke-dashoffset: 3300;
   animation: anime1 3s ease-in-out forwards;
 }
+/* IE10+ */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #ribon_path {
+    opacity: 1;
+  } 
+  .active #ribon_path {
+    opacity: 1;
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+  }
+}
 
 @keyframes anime1 {
   to {
     stroke-dashoffset: 0;
   }
 }
+
+
 
 #sec9 .tc03 {
   padding-top: 15.625rem;
@@ -993,6 +1006,29 @@ html,body{font-size:16px}
   #sec11 .tc06 {
     background-size:1600px auto;
   }
+  .tc04 .leftA {
+		float: left;
+		width: 49%;
+		height: 38.6875rem;
+	}
+
+	.tc04 .leftA img {
+		left: 3.75rem;
+		width:92%;
+	}
+
+	.tc04 .rightA {
+		float: right;
+		width: 49%;
+		height: 38.6875rem;
+	}
+
+	.tc04 .rightA img {
+		bottom: 0;
+		left: 0;
+		width:92%;
+	}
+
 }
 
 @media screen and (max-width:1100px) {
@@ -1030,28 +1066,6 @@ html,body{font-size:16px}
 		right: 20px;
 	}	
 
-	.tc04 .leftA {
-		float: left;
-		width: 49%;
-		height: 38.6875rem;
-	}
-
-	.tc04 .leftA img {
-		left: 3.75rem;
-		width:92%;
-	}
-
-	.tc04 .rightA {
-		float: right;
-		width: 49%;
-		height: 38.6875rem;
-	}
-
-	.tc04 .rightA img {
-		bottom: 0;
-		left: 0;
-		width:92%;
-	}
 	.tc06 ul li .thumb {
 		height:18rem;
 	}

@@ -73,10 +73,10 @@ $(document).ready(function() {
     $("#indicator li a").click(function(event){     
         $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500,"linear");
     });
-    $("#indicator li a").mouseover(function(event){     
+    $("#indicator li a").mouseenter(function(event){     
         $(this).parent().parent().addClass('mouseover');
     });
-    $("#indicator li a").mouseout(function(event){     
+    $("#indicator li a").mouseleave(function(event){     
         $(this).parent().parent().removeClass('mouseover');
     });
 
