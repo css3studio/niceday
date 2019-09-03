@@ -787,6 +787,7 @@ html,body{font-size:16px}
 
 #sec6 .tc03 {
   padding-top: 8.125rem;
+  padding-left:5.625rem;
   margin-bottom: 4.375rem
 }
 
@@ -915,11 +916,20 @@ html,body{font-size:16px}
 }
 
 
-#ribon_path {
+#line-1 {
+  opacity: 0;
+}
+#line-2 {
   opacity: 0;
 }
 
-.active #ribon_path {
+.active #line-1 {
+  opacity: 1;
+  stroke-dasharray: 720;
+  stroke-dashoffset: 720;
+  animation: anime1 1s ease forwards 2s;
+}
+.active #line-2 {
   opacity: 1;
   stroke-dasharray: 3300;
   stroke-dashoffset: 3300;
@@ -927,10 +937,10 @@ html,body{font-size:16px}
 }
 /* IE10+ */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  #ribon_path {
+  #line-1 ,#line-2 {
     opacity: 1;
   } 
-  .active #ribon_path {
+  .active #line-1,  .active #line-2{
     opacity: 1;
     stroke-dasharray: 0;
     stroke-dashoffset: 0;
