@@ -792,7 +792,8 @@ html,body{font-size:16px}
 }
 
 #sec6 .tc03 dl dt {
-  font-size: 4.5rem
+  font-size: 4.5rem;
+  margin-left:-2px;
 }
 
 #sec6 .tc03 p.pre {
