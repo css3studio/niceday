@@ -160,7 +160,7 @@
 	.tc06 ul li{float:none;margin-bottom:5px;border-radius:5px;width:auto;margin-left:0}
 	.tc06 ul li .thumb{width:145px;height:125px;overflow:hidden;float:left}
 	.tc06 ul li .thumb img{width:100%}
-	.tc06 ul li dl{height:125px;text-align:left;background-color:#fe6b00;box-sizing:border-box;padding:25px 25px 25px 165px;color:#fff}
+	.tc06 ul li dl{height:125px;text-align:left;background-color:#fe6b00;box-sizing:border-box;padding:25px 20px 25px 165px;color:#fff}
 	.tc06 ul li dl dt{font-size:13px;line-height:1.5;margin-bottom:10px}
 	.tc06 ul li dl dd{font-size:22px;line-height:1.2;font-weight:800}
 

@@ -224,12 +224,12 @@ section .mobile{display:none}
 }
 
 #sec1 {
-  height: 65.875rem;
+  height: 62.5rem;
   background-image: url(../images/bg_sec01.jpg)
 }
 
 #sec2 {
-  height: 68.1875rem;
+  height: 64.375rem;
   background-image: url(../images/bg_sec02.jpg)
 }
 
@@ -290,7 +290,7 @@ section .mobile{display:none}
 }
 
 #sec11 .tc06 {
-  height: 57.75rem;
+  height: 55.25rem;
   background: url(../images/bg_sec11.jpg) no-repeat center 0
 }
 
