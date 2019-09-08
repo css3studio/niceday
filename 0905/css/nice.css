@@ -615,6 +615,7 @@ section .mobile{display:none}
   position: absolute;
   bottom: 6.25rem;
   left: 50%;
+  margin-left:-3.125rem;
   text-align: center;
   z-index: 5
 }

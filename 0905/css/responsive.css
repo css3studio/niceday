@@ -136,11 +136,11 @@
 	.tc03 p.origin{font-size:12px;line-height:1.2;color:#fff;margin-top:30px}
 
 	.tc04{position:relative;overflow:visible}
-	.tc04:after{content:"";display:block;width:312px;height:812px;background:url(../images/m/line.png) no-repeat 0 0;background-size:cover;position:absolute;top:-120px;left:50%;margin-left:-167px;z-index:20}
+	.tc04:after{content:"";display:block;width:332px;height:760px;background:url(../images/m/line.png) no-repeat 0 0;background-size:cover;position:absolute;top:-57px;left:50%;margin-left:-152px;z-index:20}
 	.tc04 .leftA{float:none;width:290px;height:330px;background:url(../images/card_bg_sec08_01.jpg) no-repeat center 0;background-size:cover;border-radius:20px;position:relative;overflow:hidden;margin:0 auto 15px}
-	.tc04 .leftA img{position:absolute;bottom:0;left:40px;z-index:1;width:82%}
+	.tc04 .leftA img{position:absolute;bottom:0;left:44px;z-index:1;width:82%}
 	.tc04 .rightA{float:none;width:290px;height:330px;background:url(../images/card_bg_sec08_02.jpg) no-repeat center 0;background-size:cover;border-radius:20px;position:relative;overflow:hidden;margin:0 auto}
-	.tc04 .rightA img{position:absolute;bottom:0;left:0;z-index:1;width:97%}
+	.tc04 .rightA img{position:absolute;bottom:0;left:0;z-index:1;width:101%}
 
 	.tc05{overflow:hidden;background-color:#3a2726;padding:47px 0 50px}
 	.tc05 .leftA{float:none;width:auto;text-align:center}
@@ -173,7 +173,7 @@
 	#sec4 .tc03 dl dd p b{color:#ffcc00;font-weight:normal}
 
 	#sec5{position:relative}
-	#sec5 .controls{bottom:15px;left:0;width:100%}
+	#sec5 .controls{bottom:15px;left:0;width:100%;margin-left:0}
 	#sec5 .controls .slick-arrow{display:none !important}
 	#sec5 .controls .indicator {
 		display: block;
@@ -238,7 +238,7 @@
 
 	#sec8{position:relative;overflow:hidden;box-sizing:border-box}
 	#sec8 .inner{height:100%}
-	#sec8 .tc03{text-align:center;margin-bottom:50px;padding-top:60px}
+	#sec8 .tc03{text-align:center;margin-bottom:40px;padding-top:60px}
 	#sec8 .tc03 dl dt{font-size:27px;color:#5c2f0d}
 	#sec8 .tc03 dl dt b{font-weight:normal;color:#ff6c00;border-bottom:4px solid}
 	#sec8 .tc03 dl dd p{color:#453f3a}
