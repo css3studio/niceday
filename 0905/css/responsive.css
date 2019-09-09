@@ -2,10 +2,10 @@
 @media screen and (max-width:768px) {
 	html,body{font-size:11px !important}
 	body{overflow-x: hidden}
-  #content_body section {
+  #giveNiceDay_conttop #content_body section {
     background-size:1600px auto;
   }
-  #indicator{display:none}
+  #giveNiceDay_conttop #indicator{display:none}
   #sec5 .slide li {
     background-size:1600px auto;
   }
@@ -78,9 +78,9 @@
 @media screen and (max-width:414px) {
 
 	/*layout*/
-	#content_body .inner{margin:0 25px}
-	section .pc{display:none}
-	section .mobile{display:block}
+	#giveNiceDay_conttop #content_body .inner{margin:0 25px}
+	#giveNiceDay_conttop section .pc{display:none}
+	#giveNiceDay_conttop section .mobile{display:block}
 	/*common*/
 	.btn02{display:inline-block;height:45px;line-height:45px;background-color:#ff6c00;font-size:14px;font-weight:600;color:#fff !important;text-align:center;border-radius:5px}
 	.btn02:hover{background-color:#ff6600}
@@ -88,28 +88,28 @@
 	.lg01{width:111px;height:35px;background:url(../images/logo.png) no-repeat 0 0;background-size:cover;text-indent:-9999px}
 
 	/*scroll button*/
-	#scroll_button{position:fixed;bottom:0;left:0;width:100%;height:45px;z-index:1000;background:none}
-	#scroll_button a{display:block;position:static;width:auto;height:45px;line-height:45px;text-align:center;color:#fff;font-size:15px;font-weight:600;background:-webkit-gradient(linear, left top, left bottom, from(#fd8325), to(#ee5b00));border-radius:10px 10px 0 0}
-	#scroll_button a:after{content:"";position:absolute;left:50%;margin-left:90px;bottom:0;display:block;width:47.5px;height:58px;background:url(../images/child.png) no-repeat 0 0;background-size:cover}
-	#scroll_button a span{position:relative;left:-30px}
+	#giveNiceDay_conttop #scroll_button{position:fixed;bottom:0;left:0;width:100%;height:45px;z-index:1000;background:none}
+	#giveNiceDay_conttop #scroll_button a{display:block;position:static;width:auto;height:45px;line-height:45px;text-align:center;color:#fff;font-size:15px;font-weight:600;background:-webkit-gradient(linear, left top, left bottom, from(#fd8325), to(#ee5b00));border-radius:10px 10px 0 0}
+	#giveNiceDay_conttop #scroll_button a:after{content:"";position:absolute;left:50%;margin-left:90px;bottom:0;display:block;width:47.5px;height:58px;background:url(../images/child.png) no-repeat 0 0;background-size:cover}
+	#giveNiceDay_conttop #scroll_button a span{position:relative;left:-30px}
 
 	/*background image*/
-	#content_body section{background-repeat:no-repeat;background-position:center center;background-size:414px auto}
-	#sec1{height:527px;background-image:url(../images/m/bg_sec01.jpg)}
-	#sec2{height:460px;background-image:url(../images/m/bg_sec02.jpg)}
-	#sec3{height:480px;background-image:url(../images/m/bg_sec03.jpg)}
-	#sec4{height:480px;background-image:url(../images/m/bg_sec04.jpg)}
-	#sec5{height:530px}
-	#sec5 .slide li.slick-slide{height:530px;background-repeat:no-repeat;background-position:center center;background-size:414px auto}
-	#sec5 .slide1{background-image:url(../images/m/bg_sec05_01.jpg)}
-	#sec5 .slide2{background-image:url(../images/m/bg_sec05_02.jpg)}
-	#sec5 .slide3{background-image:url(../images/m/bg_sec05_03.jpg)}
-	#sec6{background-color:#f5f4ee;overflow:hidden}
-	#sec7{height:530px;background-image:url(../images/m/bg_sec07.jpg);position:relative}
-	#sec8{height:1014px;background-image:url(../images/m/bg_sec08.jpg)}
-	#sec9{display:none}
-	#sec10{height:480px;background-image:url(../images/m/bg_sec10.jpg)}
-	#sec11 .tc06{height:633px;background:url(../images/m/bg_sec11.jpg) no-repeat center center;background-size:414px auto}
+	#giveNiceDay_conttop #content_body section{background-repeat:no-repeat;background-position:center center;background-size:414px auto}
+	#giveNiceDay_conttop #sec1{height:527px;background-image:url(../images/m/bg_sec01.jpg)}
+	#giveNiceDay_conttop #sec2{height:460px;background-image:url(../images/m/bg_sec02.jpg)}
+	#giveNiceDay_conttop #sec3{height:480px;background-image:url(../images/m/bg_sec03.jpg)}
+	#giveNiceDay_conttop #sec4{height:480px;background-image:url(../images/m/bg_sec04.jpg)}
+	#giveNiceDay_conttop #sec5{height:530px}
+	#giveNiceDay_conttop #sec5 .slide li.slick-slide{height:530px;background-repeat:no-repeat;background-position:center center;background-size:414px auto}
+	#giveNiceDay_conttop #sec5 .slide1{background-image:url(../images/m/bg_sec05_01.jpg)}
+	#giveNiceDay_conttop #sec5 .slide2{background-image:url(../images/m/bg_sec05_02.jpg)}
+	#giveNiceDay_conttop #sec5 .slide3{background-image:url(../images/m/bg_sec05_03.jpg)}
+	#giveNiceDay_conttop #sec6{background-color:#f5f4ee;overflow:hidden}
+	#giveNiceDay_conttop #sec7{height:530px;background-image:url(../images/m/bg_sec07.jpg);position:relative}
+	#giveNiceDay_conttop #sec8{height:1014px;background-image:url(../images/m/bg_sec08.jpg)}
+	#giveNiceDay_conttop #sec9{display:none}
+	#giveNiceDay_conttop #sec10{height:480px;background-image:url(../images/m/bg_sec10.jpg)}
+	#giveNiceDay_conttop #sec11 .tc06{height:633px;background:url(../images/m/bg_sec11.jpg) no-repeat center center;background-size:414px auto}
 
 	/*contents*/
 	.tc01{padding-top:120px;text-align:center;width:auto}
@@ -214,7 +214,7 @@
 	#sec5 .slide3 dl dd p b{color:#38b6ff;font-weight:normal;border-bottom:2px solid}
 
 	#sec6{padding-bottom:40px}
-	#sec6 .slider.inner{position:relative;margin:0}
+	#sec6 .slider.inner{position:relative;margin:0 !important}
 	#sec6 .slider .slick-list{overflow:visible}
 	#sec6 .slider .slick-slide{overflow:hidden}
 	#sec6 .slider ul li.slick-slide{overflow:hidden;border-radius:0}

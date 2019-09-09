@@ -29,12 +29,12 @@
 html,body{font-size:16px}
 
 /*layout*/
-#content_body .inner {
+#giveNiceDay_conttop #content_body .inner {
   max-width: 62.5rem;
   margin: 0 auto
 }
-section .pc{display:block}
-section .mobile{display:none}
+#giveNiceDay_conttop section .pc{display:block}
+#giveNiceDay_conttop section .mobile{display:none}
 
 /*common*/
 .btn02 {
@@ -78,7 +78,7 @@ section .mobile{display:none}
 
 
 /*indicator*/
-#indicator {
+#giveNiceDay_conttop #indicator {
   position: fixed;
   display: table;
   top: 0;
@@ -89,22 +89,22 @@ section .mobile{display:none}
   z-index: 2
 }
 
-#indicator.inactive {
+#giveNiceDay_conttop #indicator.inactive {
   opacity: 0
 }
 
-#indicator ul {
+#giveNiceDay_conttop #indicator ul {
   display: table-cell;
   height: 100%;
   vertical-align: middle
 }
 
-#indicator li {
+#giveNiceDay_conttop #indicator li {
   position: relative;
   margin: 0.375rem 0
 }
 
-#indicator li span {
+#giveNiceDay_conttop #indicator li span {
   position: absolute;
   opacity: 0;
   height: 1.25rem;
@@ -121,7 +121,7 @@ section .mobile{display:none}
   transition: height 0.5s 0.3s, line-height 0.5s 0.3s, margin-top 0.5s 0.3s, opacity 0.5s 0.3s
 }
 
-#indicator li span:after {
+#giveNiceDay_conttop #indicator li span:after {
   content: "";
   display: block;
   width: 0.5rem;
@@ -134,21 +134,21 @@ section .mobile{display:none}
   margin-top: -0.25rem
 }
 
-#indicator li.active span {
+#giveNiceDay_conttop #indicator li.active span {
   display: block;
   opacity: 1;
   height: 2.5rem;
   line-height: 2.5rem;
   margin-top: -1.25rem
 }
-#indicator .mouseover li.active span {
+#giveNiceDay_conttop #indicator .mouseover li.active span {
   opacity: 0;
   height: 1.25rem;
   line-height: 1.25rem;
   padding: 0 1.25rem;
 }
 
-#indicator li a {
+#giveNiceDay_conttop #indicator li a {
   display: block;
   width: 1rem;
   height: 1rem;
@@ -157,12 +157,12 @@ section .mobile{display:none}
 	
 }
 
-#indicator li.active a {
+#giveNiceDay_conttop #indicator li.active a {
   background: url(../images/ind_on.png) no-repeat center center;
 	background-size:cover;
 }
 
-#indicator li a:hover+span {
+#giveNiceDay_conttop #indicator li a:hover+span {
   display: block !important;
   opacity: 1;
   height: 2.5rem;
@@ -171,7 +171,7 @@ section .mobile{display:none}
 }
 
 /*scroll button*/
-#scroll_button {
+#giveNiceDay_conttop #scroll_button {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -181,7 +181,7 @@ section .mobile{display:none}
   background: url(../images/bg_button.png) no-repeat right bottom
 }
 
-#scroll_button a {
+#giveNiceDay_conttop #scroll_button a {
   display: block;
   width: 29.625rem;
   height: 5.375rem;
@@ -196,7 +196,7 @@ section .mobile{display:none}
 	background-size:cover;
 }
 
-#scroll_button a:after {
+#giveNiceDay_conttop #scroll_button a:after {
   content: "";
   position: absolute;
   right: 0.9375rem;
@@ -209,87 +209,87 @@ section .mobile{display:none}
   transition: bottom 0.5s
 }
 
-#scroll_button a:hover:after {
+#giveNiceDay_conttop #scroll_button a:hover:after {
   bottom: -0.25rem
 }
 
-#scroll_button a span {
+#giveNiceDay_conttop #scroll_button a span {
   margin-left: 2.1875rem
 }
 
 /*background image*/
-#content_body section {
+#giveNiceDay_conttop #content_body section {
   background-repeat: no-repeat;
   background-position: center 0
 }
 
-#sec1 {
+#giveNiceDay_conttop #sec1 {
   height: 62.5rem;
   background-image: url(../images/bg_sec01.jpg)
 }
 
-#sec2 {
+#giveNiceDay_conttop #sec2 {
   height: 64.375rem;
   background-image: url(../images/bg_sec02.jpg)
 }
 
-#sec3 {
+#giveNiceDay_conttop #sec3 {
   height: 60rem;
   background-image: url(../images/bg_sec03.jpg)
 }
 
-#sec4 {
+#giveNiceDay_conttop #sec4 {
   height: 60rem;
   background-image: url(../images/bg_sec04.jpg)
 }
 
-#sec5 {
+#giveNiceDay_conttop #sec5 {
   height: 60rem
 }
 
-#sec5 .slide li {
+#giveNiceDay_conttop #sec5 .slide li {
   height: 60rem;
   background-repeat: no-repeat;
   background-position: center 0
 }
 
-#sec5 .slide1 {
+#giveNiceDay_conttop #sec5 .slide1 {
   background-image: url(../images/bg_sec05_01.jpg)
 }
 
-#sec5 .slide2 {
+#giveNiceDay_conttop #sec5 .slide2 {
   background-image: url(../images/bg_sec05_02.jpg)
 }
 
-#sec5 .slide3 {
+#giveNiceDay_conttop #sec5 .slide3 {
   background-image: url(../images/bg_sec05_03.jpg)
 }
 
-#sec6 {
+#giveNiceDay_conttop #sec6 {
   padding-bottom:8rem
 }
 
-#sec7 {
+#giveNiceDay_conttop #sec7 {
   height: 56.875rem;
   background-image: url(../images/bg_sec07.jpg)
 }
 
-#sec8 {
+#giveNiceDay_conttop #sec8 {
   height: 73rem;
   background-image: url(../images/bg_sec08.jpg)
 }
 
-#sec9 {
+#giveNiceDay_conttop #sec9 {
   height: 60rem;
   background-image: url(../images/bg_sec09.jpg)
 }
 
-#sec10 {
+#giveNiceDay_conttop #sec10 {
   height: 60rem;
   background-image: url(../images/bg_sec10.jpg)
 }
 
-#sec11 .tc06 {
+#giveNiceDay_conttop #sec11 .tc06 {
   height: 55.25rem;
   background: url(../images/bg_sec11.jpg) no-repeat center 0
 }
