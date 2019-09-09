@@ -217,7 +217,7 @@
 	#sec6 .slider.inner{position:relative;margin:0}
 	#sec6 .slider .slick-list{overflow:visible}
 	#sec6 .slider .slick-slide{overflow:hidden}
-	#sec6 .slider ul li.slick-slide{overflow:hidden}
+	#sec6 .slider ul li.slick-slide{overflow:hidden;border-radius:0}
 	#sec6 .slider ul li.slick-slide img{width:100%}
 	#sec6 .tc03{padding-top:60px;margin-bottom:30px;padding-left:0;text-align:center}
 	#sec6 .tc03 dl dt{font-size:32px}
